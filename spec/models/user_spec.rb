@@ -1,6 +1,6 @@
-require 'spec_helper'
+require 'rails_helper'
 
-describe User do
+RSpec.describe User do
 
   before { @user = User.new(name: "Example User", email: "user@example.com") }
 

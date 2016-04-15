@@ -1,6 +1,6 @@
-require 'spec_helper'
+require 'rails_helper'
 
-describe "Static pages" do
+RSpec.describe "home page", :type => :feature do
 
   subject { page }
 

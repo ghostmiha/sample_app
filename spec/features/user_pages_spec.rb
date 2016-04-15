@@ -1,6 +1,6 @@
-require 'spec_helper'
+require 'rails_helper'
 
-describe "User pages" do
+RSpec.describe "User pages", :type => :feature do
 
   subject { page }
 

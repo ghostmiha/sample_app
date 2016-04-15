@@ -7,7 +7,7 @@ gem 'bootstrap-sass', '2.3.2.0'
 
 
 group :development, :test do
-    gem 'rspec-rails', '~> 3.4.2'
+  gem 'rspec-rails', '~> 3.4.2'
 end
 
 group :test do
@@ -21,7 +21,7 @@ gem 'coffee-rails', '4.0.1'
 gem 'jquery-rails', '3.0.4'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
-gem 'test-unit' 
+gem 'test-unit'
 
 
 group :doc do
